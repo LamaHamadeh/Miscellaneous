@@ -8,7 +8,7 @@ Created on Fri Nov 17 10:46:26 2017
 
 
 
-#difference in hours and minutes between two given times
+#the following code converts a number to a time: hours:minutes
 import math
 
 def TimeConvert(num):
@@ -18,3 +18,9 @@ def TimeConvert(num):
     return str(hours) + ':' + str(minutes)
 
 print(TimeConvert(350))
+
+
+#this code converts the time to words
+
+
+
